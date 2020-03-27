@@ -37,7 +37,7 @@ class Song
     if self.all.find {|song| song.name == name} 
       song 
     else 
-      song = song.new 
+      song = self.new 
     end 
   end 
 end
